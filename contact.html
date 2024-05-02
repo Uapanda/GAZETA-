@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="container">
-            <a class="logo">newspaper</a>
-
+        <div class="header-wrap container">
+            <a class="header-logo" href="#">Newspaper</a>
             <nav class="header-nav">
-                <ul class="list-nav">
+                <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="nav-link">головна сторінка</a>
+                        <a class="nav-link" href="index.html">Головна сторінка</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">контакти</a>
+                        <a class="nav-link" href="contact.html">Контакти</a>
                     </li>
-
                 </ul>
             </nav>
-        </header>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="contacts-container container">
+            <div class="contacts-wrap">
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <p class="contacts-text">Ви можете зателефонувати нам за номером:</p>
+                        <a class="contacts-link" href="tel:+380730000000">+380730000000</a>
+                    </li>
+                    <li class="contacts-item">
+                        <p class="contacts-text">Якщо у вас є цікаві новини:</p>
+                        <a class="contacts-link" href="mailto:newspaper@gmail.com">newspaper@gmail.com</a>
+                    </li>
+                </ul>
+                <div class="contacts-map">
+                    <p class="contacts-text">
+                        Завітайте до нас в офіс за адресою м.Київ, вул. Хрещатик
+                    </p>
+                    <img class="contacts-img" src="Images/map.png" alt="Карта">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-wrap container">
+            <a class="footer-logo" href="#">Newspaper</a>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a class="footer-link" href="tel:+380730000000">Номер телефону</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="newspaper@gmail.com">newspaper@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        </footer>
 </body>
+
 </html>
